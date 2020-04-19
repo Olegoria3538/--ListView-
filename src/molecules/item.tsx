@@ -5,6 +5,7 @@ interface ItemType {
   title: string
 }
 
+//один элемент - одна страна
 export const Item: React.FC<ItemType> = ({ title }) => {
   return (
     <TouchableOpacity onPress={() => Alert.alert("Страна", title)}>
@@ -15,6 +16,7 @@ export const Item: React.FC<ItemType> = ({ title }) => {
   )
 }
 
+//стили
 const styles = StyleSheet.create({
   item: {
     padding: 20,

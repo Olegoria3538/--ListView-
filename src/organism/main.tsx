@@ -5,8 +5,12 @@ import { Item } from "../molecules/item"
 import { $data } from "../model/init"
 import { useStore } from "effector-react"
 
+//сам лист вию, это блок где будут нал=ши элементы
 export const ListView = () => {
+  //подписываемся на изменения сторы дата - тут хранятся страны
   const data = useStore($data)
+
+  //рендерим лист вию
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
@@ -18,6 +22,7 @@ export const ListView = () => {
   )
 }
 
+//стили для блока
 const styles = StyleSheet.create({
   container: {
     flex: 1,
