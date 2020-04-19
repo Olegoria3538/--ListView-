@@ -1,0 +1,5 @@
+Разработка мобильного приложения Xamarin.Android Должно быть на Xamarin, но мой компьютер активно сопротивляется ему.
+
+Лабораторная выполнена на ReactNative + TypeScript. В папке src - исходники. В organism тело лист вью.
+В molecules - шаблон итема (1 странна). В model запрос на получение стран,
+использовано апи https://namaztimes.kz/ru/api/country?type=json.
