@@ -5,7 +5,7 @@ import { Item } from "../molecules/item"
 import { $data } from "../model/init"
 import { useStore } from "effector-react"
 
-//сам лист вию, это блок где будут нал=ши элементы
+//сам лист вию, это блок где будут наши элементы
 export const ListView = () => {
   //подписываемся на изменения сторы дата - тут хранятся страны
   const data = useStore($data)
